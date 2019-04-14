@@ -154,7 +154,7 @@ endfunction
 
 function! s:ConfCoc () abort
 
-	inoremap <C-L> <Right> " for complete
+	inoremap <C-L> <Right>
 
 	"" https://github.com/neoclide/coc.nvim/wiki/Completion-with-sources
 	"inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
