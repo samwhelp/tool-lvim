@@ -3,6 +3,11 @@
 tool-lvim ([GitHub](https://github.com/samwhelp/tool-lvim))
 
 
+## Install neovim (nvim)
+
+* Installing Neovim / [Ubuntu](https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu)
+
+
 ## Install Plugin
 
 lvim use [vim-plug](https://github.com/junegunn/vim-plug) for Plugin Manager.
