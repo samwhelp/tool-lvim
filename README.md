@@ -92,3 +92,10 @@ Please read doc/[feature](https://samwhelp.github.io/tool-svim-doc/read/en_us/#/
 * https://github.com/morhetz/gruvbox
 * https://github.com/joshdick/onedark.vim
 
+
+## Related Projects
+
+* [tool-svim](https://github.com/samwhelp/tool-svim)
+* [tool-mvim](https://github.com/samwhelp/tool-mvim)
+* [tool-ivim](https://github.com/samwhelp/tool-ivim)
+
