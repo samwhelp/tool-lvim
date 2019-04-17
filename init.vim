@@ -397,6 +397,47 @@ endfunction
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" Head: PlugFm_Ranger
+""
+
+function! s:PlugFm_Ranger () abort
+
+	" ## ranger.vim
+	" https://ranger.github.io/
+	" https://github.com/ranger/ranger
+	" https://github.com/francoiscabrol/ranger.vim
+	Plug 'francoiscabrol/ranger.vim'
+	Plug 'rbgrouleff/bclose.vim'
+
+	" Notice
+	" Install ranger first
+	" $ sudo apt-get install ranger
+
+endfunction
+
+""
+""" Tail: PlugFm_Ranger
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""" Head: ConfFm_Ranger
+""
+
+function! s:ConfFm_Ranger () abort
+
+
+	nnoremap <Space>er :Ranger<CR>
+
+
+endfunction
+
+""
+""" Tail: ConfFm_Ranger
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """ Head: PlugFzf
 ""
 
@@ -630,6 +671,7 @@ function! s:PackPlugBase () abort
 	call s:PlugCoding_Honza_VimSnippets()
 	call s:PlugEleLine()
 	call s:PlugFcitx()
+	call s:PlugFm_Ranger()
 	call s:PlugFzf()
 	call s:PlugLvim()
 	call s:PlugNerdTree()
@@ -653,6 +695,7 @@ function! s:PackConfBase () abort
 	call s:ConfCoding_Honza_VimSnippets()
 	call s:ConfEleLine()
 	call s:ConfFcitx()
+	call s:ConfFm_Ranger()
 	call s:ConfFzf()
 	call s:ConfLvim()
 	call s:ConfNerdTree()
