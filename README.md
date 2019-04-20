@@ -33,13 +33,13 @@ to install extensions, please run
 or run for lvim defined
 
 ``` vim
-:call Lvim_InstallCocExtensions()
+:call Lvim_Coc_InstallExtensions()
 ```
 
 or run
 
 ``` vim
-:call Lvim_InstallCocExtensions_Sync()
+:call Lvim_Coc_InstallExtensions_Sync()
 ```
 
 
@@ -93,9 +93,12 @@ Please read doc/[feature](https://samwhelp.github.io/tool-svim-doc/read/en_us/#/
 * https://github.com/joshdick/onedark.vim
 
 
+## Similar Projects
+
+* [tool-hvim](https://github.com/samwhelp/tool-hvim)
+
 ## Related Projects
 
 * [tool-svim](https://github.com/samwhelp/tool-svim)
 * [tool-mvim](https://github.com/samwhelp/tool-mvim)
 * [tool-ivim](https://github.com/samwhelp/tool-ivim)
-

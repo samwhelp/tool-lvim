@@ -189,10 +189,10 @@ endfunction
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""" Head: Lvim_InstallCocExtensions
+""" Head: Lvim_Coc_InstallExtensions
 ""
 
-function! Lvim_InstallCocExtensions () abort
+function! Lvim_Coc_InstallExtensions () abort
 
 	" https://www.npmjs.com/package/coc.nvim
 
@@ -241,7 +241,7 @@ function! Lvim_InstallCocExtensions () abort
 endfunction
 
 
-function! Lvim_InstallCocExtensions_Sync () abort
+function! Lvim_Coc_InstallExtensions_Sync () abort
 
 	" https://www.npmjs.com/package/coc.nvim
 
@@ -290,7 +290,7 @@ function! Lvim_InstallCocExtensions_Sync () abort
 endfunction
 
 ""
-""" Tail: Lvim_InstallCocExtensions
+""" Tail: Lvim_Coc_InstallExtensions
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -428,6 +428,7 @@ function! s:ConfFm_Ranger () abort
 
 
 	nnoremap <Space>er :Ranger<CR>
+	"nnoremap ,f :Ranger<CR>
 
 
 endfunction
