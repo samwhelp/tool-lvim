@@ -93,6 +93,8 @@ On [Normal Mode](https://vimhelp.org/index.txt.html#normal-index), some key map 
 * https://github.com/junegunn/fzf
 * https://github.com/junegunn/fzf.vim
 * https://github.com/scrooloose/nerdtree
+* https://github.com/francoiscabrol/ranger.vim
+* https://github.com/ptzz/lf.vim
 * https://github.com/neoclide/coc.nvim
 * https://github.com/honza/vim-snippets
 
