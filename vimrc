@@ -409,6 +409,7 @@ function! s:PlugFm_Lf () abort
 	" https://github.com/rbgrouleff/bclose.vim
 	Plug 'ptzz/lf.vim'
 	Plug 'rbgrouleff/bclose.vim'
+	Plug 'voldikss/vim-floaterm'
 
 	" Notice
 	" Install lf first
