@@ -1,6 +1,6 @@
 # tool-lvim
 
-tool-lvim ([GitHub](https://github.com/samwhelp/tool-lvim))
+[tool-lvim](https://github.com/samwhelp/tool-lvim) ([GitHub](https://github.com/samwhelp/tool-lvim))
 
 
 ## Installer
