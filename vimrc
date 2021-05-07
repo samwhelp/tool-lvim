@@ -433,7 +433,7 @@ endfunction
 function! s:ConfFm_Lf () abort
 
 
-	nnoremap <Space>er :Lf<CR>
+	nnoremap <Space>el :Lf<CR>
 	nnoremap ,f :Lf<CR>
 
 
@@ -616,7 +616,8 @@ endfunction
 
 function! s:ConfNerdTree () abort
 
-	nnoremap ,t :NERDTreeToggle<cr>
+	nnoremap ,t :NERDTreeToggle<CR>
+	nnoremap <Space>et :NERDTreeToggle<CR>
 
 endfunction
 
